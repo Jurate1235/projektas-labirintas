@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/bg.jpg");
+    background-size: 100% 100vh;
+  }
+  body > main {
+    background-color: white;
+    padding: 20px;
+    width: auto;
+    margin: 10%;
+  }
+  
+  body > main > div > img {
+    float: left;
+    margin-right: 40px;
+    padding: 20px;
+    width: 230px;
+    height: auto;
+  }
+  
+  body > main:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 15px;
+  }
+  
+  body > main:nth-child(2) {
+    font-size: 40px;
+  }
+  div > p:nth-of-type(1) {
+    font-size: 120px;
+    margin: 0;
+    font-weight: bold;
+    color: green;
+    margin-top: 30px;
+  }
+  
+  div > p:nth-of-type(2) {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: green;
+  }
+  
+  div > p:nth-of-type(3) {
+    font-size: 12px;
+    margin: 15px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+  
+  div > div > a {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    font-weight: lighter;
+    padding: 18px 28px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px green;
+  }
+  
+  body > main > div > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+  }
