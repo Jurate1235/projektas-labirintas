@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "dead-server": "^1.0.9"
+    "dead-server": "^1.0.9",
+    "projektas-labirintas": "file:"
   }
 }
